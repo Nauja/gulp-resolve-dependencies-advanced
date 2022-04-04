@@ -1,0 +1,36 @@
+{
+  "name": "gulp-resolve-dependencies-advanced",
+  "version": "0.1.0",
+  "description": "Extra features for gulp-resolve-dependencies",
+  "license": "MIT",
+  "repository": "Nauja/gulp-resolve-dependencies-advanced",
+  "author": "Nauja",
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "gulpplugin",
+    "gulp",
+    "js",
+    "dependencies",
+    "depend",
+    "depends",
+    "concat",
+    "order",
+    "juicer",
+    "sprockets"
+  ],
+  "dependencies": {
+    "gulp-resolve-dependencies": "^4.1.0"
+  },
+  "devDependencies": {
+    "event-stream": "3.3.4",
+    "gulp": "^4.0.0",
+    "gulp-concat": "^2.4.3",
+    "mocha": "^5.2.0"
+  }
+}
